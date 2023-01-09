@@ -1,0 +1,21 @@
+{
+  "name": "dictation2d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "Edward Ahn",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
